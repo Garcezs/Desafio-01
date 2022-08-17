@@ -1,57 +1,57 @@
+/*adicionei um dark mode */
 @media screen and (prefers-color-scheme:dark){
 
-    body {
-        background-color: #111111;
-        color: #f0ece2;
-      }
-    
-      h1 {
-        color: #d4d5d6;
-      }
+  body {
+      background-color: #111111;
+      color: #f0ece2;
+    }
+  
+    h1 {
+      color: #d4d5d6;
+    }
 
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 
-    text-align: center;
-    margin: 0;
+  text-align: center; /*tava end*/
+  margin: 0;
 }
 
 #hero {
     width: 592px;
-    margin: 0 auto 72px;
+    margin: 0 auto 72px; /*tava só 72px na parte de cima */
 }
 
-#hero img {
-    margin-bottom: 72px;
+#hero img {           /*adicionei o #hero*/
+    margin: 0 auto 72px; /*tava 100px*/
 }
 
 h1 {
-    font-family: 'Inter', sans-serif;
-    font-size: 49px;
-    line-height: 50px;
-    font-weight: normal;
+  font-family: "Inter", sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
 
-    margin-bottom: 32px;
+  margin-bottom: 32px;  /*margin-bottom*/
 }
 
-h1 span {
-    font-weight: bold;
+h1 span {     /*tava sem a tag span*/
+  font-weight: bold; 
 }
 
 span, a {
-    color: #FF9900;
+  color: #ff9900;
 }
 
-p, #footer{
-    color: #7D7987;
-
-    font-size: 14px;
-    line-height: 28px;
+p, #footer {
+  color: #7d7987;
+  font-size: 14px;
+  line-height: 28px;
 }
 
-a + a {
+#footer a + a {
     margin-left: 28px;
 }
 
@@ -61,11 +61,11 @@ a + a {
 
     margin: 0 auto 8px;
 
-    border: 1px solid #ECEFF2;
+    border: 1px solid red;
 }
 
 #balls {
     position: fixed;
-    bottom: 0px;
-    right: 0px;
+    bottom: 0; /*tava top*/
+    right: 0;
 }
