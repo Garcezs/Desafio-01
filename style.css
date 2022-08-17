@@ -1,3 +1,16 @@
+@media screen and (prefers-color-scheme:dark){
+
+    body {
+        background-color: #111111;
+        color: #f0ece2;
+      }
+    
+      h1 {
+        color: #d4d5d6;
+      }
+
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 
