@@ -9,8 +9,8 @@ Consertar um código quebrado
 ## Screenshots
 
 Light mode
-![App Screenshot](https://i.imgur.com/IxwlpKa.jpg)
+![App Screenshot](https://i.imgur.com/aES7VTB.jpg)
 
 Dark mode
-![App Screenshot](https://i.imgur.com/P4dYFnx.jpg)
+![App Screenshot](https://i.imgur.com/wchNHHV.jpg)
 
