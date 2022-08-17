@@ -1,5 +1,5 @@
 /*adicionei um dark mode */
-@media screen and (prefers-color-scheme:dark){
+ @media screen and (prefers-color-scheme:dark){
 
   body {
       background-color: #111111;
@@ -55,13 +55,13 @@ p, #footer {
     margin-left: 28px;
 }
 
-#line {
+.line {
     width: 568px;
     height: 0px;
 
     margin: 0 auto 8px;
 
-    border: 1px solid red;
+    border: 1px solid #ECEFF2;
 }
 
 #balls {
